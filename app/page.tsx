@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Feature from "./sections/Feature";
 import Download from "./sections/Download";
 import Screenshot from "./sections/Screenshot";
+import Testimonial from "./sections/Testimonial";
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
 have suffered alteration in some form, by injected humour randomis" />
     <Download />
     <Screenshot />
+    <Testimonial />
     </>
   );
 }

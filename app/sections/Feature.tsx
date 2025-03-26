@@ -30,11 +30,11 @@ const Feature: React.FC<FeatureProps> = ({title,description,order1 = 1,order2=2,
                     <img src="https://chaze05.github.io/maxin/img/iphone2.png" alt="" />
                 </div>
                 <div className={`flex flex-col order-${order1}`}>
-                    <Iconbox  align="left" orderl={2} orderr={1}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
+                    <Iconbox  align="left" orderl={1} orderr={2}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
                     description="It is a long established fact that reader will be distracted by the readable content of a page when looking at its layout." />
-                    <Iconbox  align="left" orderl={2} orderr={1}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
+                    <Iconbox  align="left" orderl={1} orderr={2}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
                     description="It is a long established fact that reader will be distracted by the readable content of a page when looking at its layout." />
-                    <Iconbox  align="left" orderl={2} orderr={1}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
+                    <Iconbox  align="left" orderl={1} orderr={2}  image="https://chaze05.github.io/maxin/img/heart.png" label="User Friendly" 
                     description="It is a long established fact that reader will be distracted by the readable content of a page when looking at its layout." />
                 </div>
             </div>
