@@ -9,7 +9,7 @@ interface FeatureProps{
 }
 
 
-const Feature: React.FC<FeatureProps> = ({title,description,order1 = 1,order2=2,order3=3}) => {
+const Feature: React.FC<FeatureProps> = ({title,description,order1 = 1}) => {
   return (
     <div className="container-fluid py-10 md:py-20 bg-gray-200">
         <div className="container mx-auto">

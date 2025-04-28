@@ -1,5 +1,5 @@
 'use client';
-import Image from "next/image";
+// import Image from "next/image";
 import Hero from "./sections/Hero";
 import Info from "./sections/Info";
 import About from "./sections/About";

@@ -1,13 +1,13 @@
 import React from 'react'
 
 
-interface TestimonialProps{
-    image:string,
-    name:string,
-    position:string,
-    message:string,
-    rate:string
-}
+// interface TestimonialProps{
+//     image:string,
+//     name:string,
+//     position:string,
+//     message:string,
+//     rate:string
+// }
 
 const testimonials: TestimonialProps[] = [
     {
